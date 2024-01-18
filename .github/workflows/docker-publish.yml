@@ -23,7 +23,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: brainageR:latest
+          tags: brainager:latest
       - name: Inspect
         run: |
-          docker image inspect brainageR:latest   
+          docker image inspect brainager:latest   
